@@ -20,4 +20,4 @@ Lab1_extended
 License
 =======
 
-These applications are released under the [MIT License](https://github.com/dthesiya/GameOfLife/blob/master/LICENSE).
+These applications are released under the [Apache License 2.0](https://github.com/dthesiya/GameOfLife/blob/master/LICENSE).
