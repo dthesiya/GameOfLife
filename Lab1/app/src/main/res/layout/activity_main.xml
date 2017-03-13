@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:custom="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/activity_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <com.example.dthesiya.lab1.ViewHoldr
+        android:id="@+id/gameboard"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:orientation="vertical">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/label"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/seekbar_value"
+                android:layout_marginBottom="10dp"
+                android:layout_marginLeft="15dp"
+                />
+
+            <SeekBar
+                android:id="@+id/seekbar"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:max="20"
+                android:progress="12"
+                android:progressDrawable="@drawable/seekbar"
+                android:layout_marginBottom="10dp">
+            </SeekBar>
+        </LinearLayout>
+        <LinearLayout
+            android:id="@+id/buttonbar"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:weightSum="2">
+            <Button
+                android:id="@+id/reset"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/reset_button"
+                android:layout_weight="1"
+                style="@android:style/Widget.Material.Button" />
+            <Button
+                android:id="@+id/next"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/next_button"
+                android:layout_weight="1"
+                style="@android:style/Widget.Material.Button" />
+        </LinearLayout>
+    </LinearLayout>
+</RelativeLayout>

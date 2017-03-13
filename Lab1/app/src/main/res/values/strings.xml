@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">Lab1</string>
+    <string name="reset_button">RESET</string>
+    <string name="next_button">NEXT</string>
+    <string name="seekbar_value">Grid Cells: </string>
+    <integer name="grid_x">12</integer>
+    <integer name="grid_y">12</integer>
+</resources>
